@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: gray;
+	background: #ece9e9;
 }
 .top-bar{
 	padding-top: 10px;
@@ -60,14 +60,18 @@ body{
 .hotel h2{
 	font-size: 18px;
 	color:orange;
-	padding-left: 10px;
-	padding-right: 10px;
+	position: absolute;
+	top: 200px;
+	left: 40%;
+	display: none;
+	transform: all .5s ;
+	
 }
+
 .hotel h1{
 	font-size: 18px;
 	color:orange;
-	padding-left: 10px;
-	padding-right: 10px;
+	
 }
 
 .tags{
@@ -134,4 +138,24 @@ background: #707070;
 .jaya{
 	background-color: white;
 
+}
+.jaya image{
+	max-width: 80%
+}
+
+.bg{
+	background: black;
+	height: auto;
+	width: 100%;
+	margin-top: 50px;
+
+}
+.mor{
+	width: 200px;
+	height: 50px;
+	border-radius: 10px;
+	border: 1px solid white;
+	background: orange;
+	padding-top: 10px;
+	align-items: center;
 }
